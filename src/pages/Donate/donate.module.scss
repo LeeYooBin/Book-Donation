@@ -1,0 +1,50 @@
+.donate {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    width: 80%;
+  }
+
+  form {
+    width: 35rem;
+    border: solid 1px #005695;
+    border-radius: 2rem;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    button {
+      background-color: #005695;
+      color: #ffffff;
+      font-size: 1.5rem;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .donate {
+    form {
+      width: 40rem;
+    }
+  }
+}
