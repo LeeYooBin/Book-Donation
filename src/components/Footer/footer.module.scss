@@ -1,0 +1,40 @@
+footer {
+  width: 100%;
+  height: auto;
+
+  .contacts {
+    background-color: #005695;
+    padding: 3rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      color: white;
+      font-size: 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    img {
+      width: 3rem;
+    }
+  }
+
+  .copyright {
+    background-color: #232020;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-size: 1.3rem;
+      color: white;
+    }
+  }
+}
