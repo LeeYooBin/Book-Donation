@@ -1,0 +1,17 @@
+.logo {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  img {
+    width: 5rem;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+    color: #ffffff;
+  }
+}
